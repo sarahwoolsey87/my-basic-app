@@ -1,1 +1,20 @@
-[{"id": 1, "name": "Item 1"}, {"id": 2, "name": "Item 2"}, {"id": 3, "name": "Item 3"}]
+{
+    "name": "my-basic-app",
+    "version": "1.0.0",
+    "description": "A basic app with React frontend and Express backend.",
+    "main": "server/index.js",
+    "scripts": {
+      "start": "node server/index.js",
+      "client": "cd client && npm start",
+      "server": "nodemon server/index.js",
+      "build": "cd client && npm run build"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "axios": "^0.24.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    }
+  }
+  
