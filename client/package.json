@@ -2,14 +2,13 @@
   "name": "my-basic-app",
   "version": "1.0.0",
   "description": "A basic app with React frontend and Express backend.",
-  "main": "server/server.js",
+  "main": "server/server.js", 
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node server/server.js", 
     "build": "npm run build --prefix client",
     "client": "cd client && npm start",
-    "server": "nodemon server/index.js"
+    "server": "nodemon server/server.js" 
   },
-  
   "dependencies": {
     "express": "^4.17.1",
     "axios": "^0.24.0"
